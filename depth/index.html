@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script src="libs/jquery-3.3.1/jquery-3.3.1.js"></script>
+    <script src="libs/jquery-ui/jquery-ui.js"></script>
+    <script src="libs/three.js/three.js"></script>
+    <script src="libs/tween.js/tween.js"></script>
+    <script src="libs/keyframe.js/keyframe.js"></script>
+    <script src="libs/OrbitControls.js"></script>
+
+    <script src="js/spiro.js"></script>
+
+    <meta name="theme-color" content="#000000">
+
+    <title>Hidden Depth</title>
+    <style>
+        html {
+            background-color: black;
+        }
+        #container {
+            height: 95vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <canvas id="webglcanvas" width="1900" height="1000"></canvas>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(startUp);
+    </script>
+    </body >
+</html >

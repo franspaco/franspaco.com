@@ -1,0 +1,41 @@
+.sprite {
+    background-image: url(../resources/sprite_contact.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-github {
+    width: 30px;
+    height: 30px;
+    background-position: -5px -5px;
+}
+
+.sprite-gmail {
+    width: 30px;
+    height: 30px;
+    background-position: -45px -5px;
+}
+
+.sprite-linkedin {
+    width: 30px;
+    height: 30px;
+    background-position: -5px -45px;
+}
+
+.sprite-stackoverflow {
+    width: 30px;
+    height: 30px;
+    background-position: -45px -45px;
+}
+
+.sprite-tumblr {
+    width: 30px;
+    height: 30px;
+    background-position: -85px -5px;
+}
+
+.sprite-twitter {
+    width: 30px;
+    height: 30px;
+    background-position: -85px -45px;
+}

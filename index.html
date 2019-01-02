@@ -1,0 +1,345 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A website to showcase my projects and contact me.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>paco hlz :D</title>
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
+    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <!--
+    <link rel="canonical" href="http://www.example.com/">
+    -->
+
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+
+    <meta name="theme-color" content="#FF5722">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/material.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/sprite.css">
+    <style>
+        #view-source {
+            position: fixed;
+            display: block;
+            right: 0;
+            bottom: 0;
+            margin-right: 40px;
+            margin-bottom: 40px;
+            z-index: 900;
+        }
+    </style>
+</head>
+
+<body class="mdl-demo mdl-color-text--grey-700 mdl-base">
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
+            <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+            </div>
+            <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+                <h3>paco hlz</h3>
+            </div>
+            <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+            </div>
+            <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
+                <a href="#overview" class="mdl-layout__tab is-active">Hello!</a>
+                <a href="#projects" class="mdl-layout__tab">Projects</a>
+                <a href="#curriculum" class="mdl-layout__tab">Curriculum</a>
+                <a href="#contact" class="mdl-layout__tab">Contact me</a>
+            </div>
+        </header>
+
+        <main class="mdl-layout__content">
+            <div class="mdl-layout__tab-panel is-active" id="overview">
+                <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                    <div class="mdl-card mdl-cell mdl-cell--12-col">
+                        <div class="cover-pic"></div>
+                        <div class="mdl-card__supporting-text">
+                            <h4>About me</h4>
+                            Hi there! Welcome to my website. I'm a Computer Science / Software Engineering student based in Mexico City.
+                            <br> I study at ITESM CSF.
+                            <br> I love cats.
+                        </div>
+                </section>
+                </div>
+                <div class="mdl-layout__tab-panel" id="projects">
+                    <section class="section--center mdl-grid mdl-grid--no-spacing">
+                        <div class="mdl-cell mdl-cell--12-col">
+                            <h4>My projects</h4>
+                            A curated list of projects I've woked on.
+                        </div>
+                    </section>
+                    <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                        <div class="mdl-card mdl-card mdl-shadow--2dp card-fill">
+                            <div class="mdl-card__title title-with-pic text-over-image" style="background: url('resources/espiro.png'); height: 150px;">
+                                <h2 class="mdl-card__title-text">Spirographs</h2>
+                            </div>
+                            <div class="mdl-card__supporting-text">
+                                A while ago I made a math project about predicting the arc length of a certain king of spirograph. This involved making
+                                a program to draw them and compare the calculated arc length against the measured arc length.
+                            </div>
+                            <div class="mdl-card__actions mdl-card--border">
+                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://franspaco.com/espiro/">
+                                    Drawing Animation
+                                </a>
+                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://franspaco.com/glich">
+                                    Random Spirographs
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                        <div class="mdl-card mdl-card mdl-shadow--2dp card-fill">
+                            <div class="mdl-card__title title-with-pic text-over-image" style="background: url('resources/espiro3d.png'); height: 150px;">
+                                <h2 class="mdl-card__title-text">3D Spirographs</h2>
+                            </div>
+                            <div class="mdl-card__supporting-text">
+                                After developing a deep interest in spirographs I've made a lot of related projects. These are some of the latest ones.
+                            </div>
+                            <div class="mdl-card__actions mdl-card--border">
+                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://franspaco.com/depth">
+                                    Static Cycloid
+                                </a>
+                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://franspaco.com/deepglitch?bpm=30">
+                                    Random Spirographs
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                        <div class="mdl-card mdl-card mdl-shadow--2dp card-fill">
+                            <div class="mdl-card__title title-with-pic text-over-image" style="background: url('resources/robot.png'); height: 150px;">
+                                <h2 class="mdl-card__title-text">Window IoT Navigation Robot</h2>
+                            </div>
+                            <div class="mdl-card__supporting-text">
+                                I spent 12 weeks as a intern in Microsoft working with one of the coolest teams: Windows IoT. This is the result.
+                            </div>
+                            <div class="mdl-card__actions mdl-card--border">
+                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://www.hackster.io/54243/iot-core-building-navigation-robot-125856">
+                                    Check it out
+                                </a>
+                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://github.com/Microsoft/Windows-iotcore-samples/tree/develop/Demos/BuildingNavigationRobot">
+                                    Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                        <div class="mdl-card mdl-card mdl-shadow--2dp card-fill">
+                            <div class="mdl-card__title title-with-pic text-over-image" style="background: url('resources/chirper.png'); height: 150px;">
+                                <h2 class="mdl-card__title-text">Social networks</h2>
+                            </div>
+                            <div class="mdl-card__supporting-text">
+                                I've made a couple social networks for school projects. All of them share the same name: Chirper (a kind nod to Cities: Skylines).
+                                The first big one consited of a cross between Reddit and Twitter. 
+                                The second one, several times more ambitious, aimed to be a combination of Twitter and Yik Yak, 
+                                where posts are geographically limited but can grow based on popularity.
+                                Sadly, due to the cost of keeping it up only Chirper V1 is live.
+                            </div>
+                            <div class="mdl-card__actions mdl-card--border">
+                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://franspaco.com/chirper">
+                                    Chirper V1 (live)
+                                </a>
+                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://github.com/franspaco/WebDevClass/tree/master/Project/main">
+                                    Chirper V2 (source code)
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                        <div class="mdl-card mdl-card mdl-shadow--2dp card-fill">
+                            <div class="mdl-card__title title-with-pic text-over-image" style="background: url('resources/solarsystem.png'); height: 150px;">
+                                <h2 class="mdl-card__title-text">WebGL experiments</h2>
+                            </div>
+                            <div class="mdl-card__supporting-text">
+                                I love using WebGL (with three.js) to make cool 3D web applications.
+                            </div>
+                            <div class="mdl-card__actions mdl-card--border">
+                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://franspaco.com/solarsystem">
+                                    Solar System
+                                </a>
+                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://franspaco.com/guacamole">
+                                    Whack-A-Mole
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                        <div class="mdl-card mdl-card mdl-shadow--2dp card-fill">
+                            <div class="mdl-card__title title-with-pic text-over-image" style="background: url('resources/egg.png'); height: 150px;">
+                                <h2 class="mdl-card__title-text">That time I was featured in Hack-A-Day</h2>
+                            </div>
+                            <div class="mdl-card__supporting-text">
+                                This one is old but still makes me proud. I made a clock inside an "egg" for an Instructables contest.
+                            </div>
+                            <div class="mdl-card__actions mdl-card--border">
+                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://hackaday.com/2011/05/03/egg-clock-its-egg-ceptional/">
+                                    Check it out
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                        <div class="mdl-card mdl-card mdl-shadow--2dp card-fill">
+                            <div class="mdl-card__title title-with-pic text-over-image" style="background: url('resources/first.png'); height: 150px; background-size: 100%;">
+                                <h2 class="mdl-card__title-text">I love FIRST Robotics</h2>
+                            </div>
+                            <div class="mdl-card__supporting-text">
+                                Not a project per se. But I need to add this. I currently volunteer in a couple events, and you should too!
+                                <br> I also love doing random stuff with Python scripts so here are a couple maps:
+                                <br>
+                                <a href="https://franspaco.com/frcteamsmx/">Heatmap of mexican teams</a>
+                                <br>
+                                <a href="https://franspaco.com/frcteams/">Heatmap of all teams</a>
+                            </div>
+                            <div class="mdl-card__actions mdl-card--border">
+                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://www.firstinspires.org/">
+                                    Click here if you want to know more about FIRST
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                        <div class="mdl-card mdl-card mdl-shadow--2dp card-fill">
+                            <div class="mdl-card__title title-with-pic text-over-image" style="background: url('resources/crafts.png'); height: 150px;">
+                                <h2 class="mdl-card__title-text">Woodworking & crafts</h2>
+                            </div>
+                            <div class="mdl-card__supporting-text">
+                                This is more of a hobby but worthy of appearing here. I love building stuff: desks, drawers, boxes, lamps, ornaments, legos, model aircraft and 3-meter-tall steel geodesic balls, among other things...
+                            </div>
+                            <div class="mdl-card__actions mdl-card--border">
+                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="#">
+                                    I'll add an album here someday
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="mdl-layout__tab-panel" id="curriculum">
+                    <section class="section--center mdl-grid mdl-grid--no-spacing">
+                        <div class="mdl-cell mdl-cell--12-col">
+                            <h4>Curriculum</h4>
+                            <iframe src="cv/web_cv.html" frameborder="0" style="height: 1200px;"></iframe>
+                        </div>
+                    </section>
+                </div>
+                <div class="mdl-layout__tab-panel" id="contact">
+                    <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                        <div class="mdl-card mdl-cell mdl-cell--12-col">
+                            <div class="mdl-card__supporting-text">
+                                <h4>Contact</h4>
+                                <!-- text -->
+
+                                <table>
+                                    <tr>
+                                        <td><i class="sprite sprite-github"></i></td>
+                                        <td>franspaco</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="sprite sprite-tumblr"></i></td>
+                                        <td>franspaco</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="sprite sprite-twitter"></i></td>
+                                        <td>@franszpaco</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="sprite sprite-gmail"></i></td>
+                                        <td><s>dfggfd</s> paco@franspaco.com</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="sprite sprite-linkedin"></i></td>
+                                        <td><a href="https://www.linkedin.com/in/francisco-huelsz/" target="_blank">LinkedIn</a></td>
+                                    </tr>
+                                </table>
+                                <!--
+                <i class="sprite sprite-linkedin"></i>
+                <i class="sprite sprite-stackoverflow"></i>
+                <i class="sprite sprite-twitter"></i>
+
+              -->
+
+                            </div>
+                    </section>
+                    </div>
+                    <!--
+        <footer class="mdl-mega-footer">
+          <div class="mdl-mega-footer--middle-section">
+            <div class="mdl-mega-footer--drop-down-section">
+              <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+              <h1 class="mdl-mega-footer--heading">Features</h1>
+              <ul class="mdl-mega-footer--link-list">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Partners</a></li>
+                <li><a href="#">Updates</a></li>
+              </ul>
+            </div>
+            <div class="mdl-mega-footer--drop-down-section">
+              <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+              <h1 class="mdl-mega-footer--heading">Details</h1>
+              <ul class="mdl-mega-footer--link-list">
+                <li><a href="#">Spec</a></li>
+                <li><a href="#">Tools</a></li>
+                <li><a href="#">Resources</a></li>
+              </ul>
+            </div>
+            <div class="mdl-mega-footer--drop-down-section">
+              <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+              <h1 class="mdl-mega-footer--heading">Technology</h1>
+              <ul class="mdl-mega-footer--link-list">
+                <li><a href="#">How it works</a></li>
+                <li><a href="#">Patterns</a></li>
+                <li><a href="#">Usage</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contracts</a></li>
+              </ul>
+            </div>
+            <div class="mdl-mega-footer--drop-down-section">
+              <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+              <h1 class="mdl-mega-footer--heading">FAQ</h1>
+              <ul class="mdl-mega-footer--link-list">
+                <li><a href="#">Questions</a></li>
+                <li><a href="#">Answers</a></li>
+                <li><a href="#">Contact us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="mdl-mega-footer--bottom-section">
+            <div class="mdl-logo">
+              More Information
+            </div>
+            <ul class="mdl-mega-footer--link-list">
+              <li><a href="https://developers.google.com/web/starter-kit/">Web Starter Kit</a></li>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Privacy and Terms</a></li>
+            </ul>
+          </div>
+        </footer>
+      -->
+        </main>
+        </div>
+        <script src="js/material.min.js"></script>
+</body>
+
+</html>

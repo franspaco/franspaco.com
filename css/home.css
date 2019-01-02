@@ -1,0 +1,101 @@
+
+/****** BIG STUFF ******/
+
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+	background: #fefcea; /* Old browsers */
+	background: -moz-linear-gradient(top, #fefcea 0%, #dddddd 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefcea), color-stop(100%,#dddddd)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #fefcea 0%,#dddddd 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #fefcea 0%,#dddddd 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #fefcea 0%,#dddddd 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #fefcea 0%,#dddddd 100%); /* W3C */
+
+}
+
+.container{
+	width: 70%;
+  	margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.separator{
+	height: 1px;
+	color: #AEAEAE;
+    background: #AEAEAE;
+    font-size: 0;
+    border: 0;
+}
+
+.box{
+	background-color: #E6E6EB;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	border: 0px solid #A8A8A8 ;
+	border-radius: 1px;
+	-moz-border-radius: 1px;
+	-webkit-border-radius:1px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.inText{
+	padding-left: 20px;
+}
+
+.sectionHeader{
+	font-size: 20px;
+}
+
+/****** SPECIFIC STUFF ******/
+#header{
+
+}
+
+#title{
+	font-size: 50px;
+	margin-bottom: 0px;
+}
+
+#subtitle{
+	margin-top: 0px;
+}
+
+#colored{
+	color: #FF6600;
+}
+
+#footer{
+	padding: 10px;
+	text-align: center;
+	padding: 0.5em 0;
+}
+
+/****** LINK STUFF ******/
+
+a{
+	color: #CC5200;
+	text-decoration: none;
+}
+
+
+.yeyButton{
+	text-decoration: none;
+	padding: 3px;
+	transition-property: border-color;
+	transition-duration: 0.5s;
+	border: 2px solid rgba(0,0,0,0);
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius:10px;
+}
+.yeyButton:hover{
+	border-color: #A8A8A8;
+	transition-duration: 0.5s;
+}
